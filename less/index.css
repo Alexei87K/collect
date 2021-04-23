@@ -218,7 +218,7 @@ a {
   justify-content: space-between;
   margin-bottom: 50px;
   align-items: center;
-  margin: 0 40px;
+  margin: 0 20px;
   border-bottom: 1px solid #fff;
 }
 .min-header .min-h-row .min-h-menu {
@@ -239,21 +239,21 @@ a {
 }
 .min-header .min-h-block {
   line-height: 50px;
-  padding: 0 40px;
+  padding: 0 20px;
   margin-top: 33px;
 }
 .min-header .min-h-block a {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 50px;
   cursor: pointer;
   text-decoration: none;
   color: #FFFFFF;
 }
 .min-header .about-us-min {
-  margin-left: 41px;
+  margin-left: 20px;
   margin-top: 40px;
 }
 .min-header .about-us-min .us-blck .title {
@@ -404,6 +404,11 @@ a {
     padding-top: 0;
   }
 }
+@media screen and (max-width: 450px) {
+  .min-form .top-form h1 {
+    font-size: 35px;
+  }
+}
 .min-form .top-form .input-blck {
   margin-top: 70px;
 }
@@ -496,6 +501,11 @@ a {
   line-height: 17px;
   color: #FFFFFF;
 }
+@media screen and (max-width: 450px) {
+  .despre .despre-blck .despre-row .despre-col-text .despre_text h2 {
+    font-size: 24px;
+  }
+}
 .despre .despre-blck .despre-row .despre-col-text .despre_text p {
   font-family: Montserrat;
   font-style: normal;
@@ -512,6 +522,11 @@ a {
 @media screen and (max-width: 800px) {
   .despre .despre-blck .despre-row .despre-col-text .despre_text p {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .despre .despre-blck .despre-row .despre-col-text .despre_text {
+    padding: 35px 15px 20px 15px;
   }
 }
 .despre .despre-blck .despre-row .despre-col-img {
@@ -590,8 +605,10 @@ a {
   }
 }
 @media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 450px) {
   .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container {
-    padding: 0px 0 0 0px;
+    padding: 15px 30px 15px 30px;
   }
 }
 .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container .t-servicii {
@@ -602,6 +619,11 @@ a {
   line-height: 44px;
   color: #FFFFFF;
 }
+@media screen and (max-width: 450px) {
+  .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container .t-servicii {
+    font-size: 24px;
+  }
+}
 .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -609,6 +631,11 @@ a {
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
+}
+@media screen and (max-width: 450px) {
+  .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container h2 {
+    font-size: 20px;
+  }
 }
 .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container p {
   font-family: 'Montserrat', sans-serif;
@@ -641,6 +668,11 @@ a {
   .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperare-col-img {
     width: calc(100% / 12 * 12 - 0px);
     margin-top: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperare-col-img {
+    padding-top: 0px;
   }
 }
 .servicii .recuperare-fon-block .achizitii-blck {
@@ -687,7 +719,7 @@ a {
   }
 }
 .servicii .recuperare-fon-block .achizitii-blck .achizitii-row .achizitii-col-text .ach-text-container {
-  padding-left: 15px;
+  padding: 15px 30px 15px 30px;
 }
 .servicii .recuperare-fon-block .achizitii-blck .achizitii-row .achizitii-col-text h2 {
   font-family: 'Montserrat', sans-serif;
@@ -755,6 +787,11 @@ a {
     padding: 0;
   }
 }
+@media screen and (max-width: 450px) {
+  .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-text .cons-text-container {
+    padding: 15px 30px 15px 30px;
+  }
+}
 .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-text .cons-text-container h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -803,6 +840,11 @@ a {
 @media screen and (max-width: 700px) {
   .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-img {
     width: calc(100% / 12 * 12 - 0px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-img {
+    height: 100%;
   }
 }
 .servicii2 .procesul-blck .procesul-row {
@@ -859,7 +901,7 @@ a {
     margin: 0;
   }
 }
-.servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck h1 {
+.servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck h2 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -868,8 +910,19 @@ a {
   padding: 0 30px;
 }
 @media screen and (max-width: 700px) {
-  .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck h1 {
+  .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck h2 {
     padding-left: 10px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck h2 {
+    padding: 10px 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck h2 {
+    padding: 10px 30px;
+    font-size: 22px;
   }
 }
 .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck p {
@@ -883,6 +936,11 @@ a {
 @media screen and (max-width: 1120px) {
   .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck p {
     padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck p {
+    padding: 10px 30px;
   }
 }
 .servicii2 .procesul-blck .procesul-row .procesul-col-text .pr-bg-bl {
@@ -963,6 +1021,11 @@ a {
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 450px) {
+  .servicii2 .oferta-blck .oferta-row .oferta-col-text .oferta-text-blck {
+    padding: 0px 30px;
+  }
+}
 .servicii2 .oferta-blck .oferta-row .oferta-col-text .oferta-text-blck h1 {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -1031,7 +1094,7 @@ a {
   font-size: 18px;
   line-height: 150%;
   color: rgba(255, 255, 255, 0.8);
-  padding: 0 10px;
+  padding: 0 30px;
   max-width: 555px;
 }
 @media screen and (max-width: 700px) {
@@ -1046,7 +1109,7 @@ a {
   font-size: 18px;
   line-height: 150%;
   color: rgba(255, 255, 255, 0.8);
-  padding: 0 10px;
+  padding: 0 30px;
   max-width: 555px;
 }
 .servicii2 .valorile-blck .valorile-row .valorile-col-text {
@@ -1073,12 +1136,17 @@ a {
 }
 @media screen and (max-width: 1120px) {
   .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck {
-    padding: 20px;
+    padding: 15px 20px;
   }
 }
 @media screen and (max-width: 700px) {
   .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck {
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck {
+    padding: 0 30px;
   }
 }
 .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck h2 {
@@ -1089,6 +1157,11 @@ a {
   line-height: 150%;
   padding-top: 0;
   color: #fff;
+}
+@media screen and (max-width: 450px) {
+  .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck h2 {
+    font-size: 24px;
+  }
 }
 .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck p {
   font-family: 'Montserrat', sans-serif;
@@ -1193,6 +1266,11 @@ a {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 450px) {
+  .intrebari .intrebari-blck .intrebari-row .intrebari-col-text .intrebari-text p {
+    padding: 0 15px;
+  }
+}
 .intrebari .intrebari-blck h3 {
   font-size: 36px;
   color: #fff;
@@ -1205,6 +1283,11 @@ a {
     font-weight: bold;
     line-height: 150%;
     color: #fff;
+  }
+}
+@media screen and (max-width: 450px) {
+  .intrebari .intrebari-blck h3 {
+    font-size: 24px;
   }
 }
 footer {
@@ -1341,6 +1424,11 @@ footer .big-footer-row .big-footer-col-formular {
 }
 footer .big-footer-row .big-footer-col-formular .footer-form {
   max-width: 365px;
+}
+@media screen and (max-width: 450px) {
+  footer .big-footer-row .big-footer-col-formular .footer-form {
+    padding: 15px 30px;
+  }
 }
 footer .big-footer-row .big-footer-col-formular .footer-form h2 {
   font-family: 'Montserrat', sans-serif;
@@ -1534,6 +1622,13 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
   outline: 1px solid #ccc;
   background: rgba(255, 255, 255, 0.5);
 }
-e: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0.5);
+@media screen and (max-width: 450px) {
+  .pc-show {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mb-show {
+    display: block;
+  }
 }
