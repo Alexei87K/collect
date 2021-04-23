@@ -501,7 +501,7 @@ a {
   line-height: 17px;
   color: #FFFFFF;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .despre .despre-blck .despre-row .despre-col-text .despre_text h2 {
     font-size: 24px;
   }
@@ -524,7 +524,7 @@ a {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .despre .despre-blck .despre-row .despre-col-text .despre_text {
     padding: 35px 15px 20px 15px;
   }
@@ -605,8 +605,6 @@ a {
   }
 }
 @media screen and (max-width: 700px) {
-}
-@media screen and (max-width: 450px) {
   .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container {
     padding: 15px 30px 15px 30px;
   }
@@ -632,7 +630,7 @@ a {
   line-height: 29px;
   color: #FFFFFF;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperar-col-text .rec-text-container h2 {
     font-size: 20px;
   }
@@ -670,9 +668,15 @@ a {
     margin-top: 25px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperare-col-img {
     padding-top: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .servicii .recuperare-fon-block .recuperare-blck .recuperare-row .recuperare-col-img img {
+    display: block;
+    margin: 0 auto;
   }
 }
 .servicii .recuperare-fon-block .achizitii-blck {
@@ -749,6 +753,12 @@ a {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 700px) {
+  .servicii .recuperare-fon-block .achizitii-blck img {
+    display: block;
+    margin: 0 auto;
+  }
+}
 .servicii .recuperare-fon-block .consalt-blck {
   margin-top: -4px;
 }
@@ -783,11 +793,6 @@ a {
   }
 }
 @media screen and (max-width: 700px) {
-  .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-text .cons-text-container {
-    padding: 0;
-  }
-}
-@media screen and (max-width: 450px) {
   .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-text .cons-text-container {
     padding: 15px 30px 15px 30px;
   }
@@ -842,7 +847,7 @@ a {
     width: calc(100% / 12 * 12 - 0px);
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-img {
     height: 100%;
   }
@@ -919,7 +924,7 @@ a {
     padding: 10px 30px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck h2 {
     padding: 10px 30px;
     font-size: 22px;
@@ -1021,7 +1026,7 @@ a {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .servicii2 .oferta-blck .oferta-row .oferta-col-text .oferta-text-blck {
     padding: 0px 30px;
   }
@@ -1144,7 +1149,7 @@ a {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck {
     padding: 0 30px;
   }
@@ -1158,7 +1163,7 @@ a {
   padding-top: 0;
   color: #fff;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck h2 {
     font-size: 24px;
   }
@@ -1266,7 +1271,7 @@ a {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .intrebari .intrebari-blck .intrebari-row .intrebari-col-text .intrebari-text p {
     padding: 0 15px;
   }
@@ -1285,7 +1290,7 @@ a {
     color: #fff;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .intrebari .intrebari-blck h3 {
     font-size: 24px;
   }
@@ -1425,7 +1430,7 @@ footer .big-footer-row .big-footer-col-formular {
 footer .big-footer-row .big-footer-col-formular .footer-form {
   max-width: 365px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   footer .big-footer-row .big-footer-col-formular .footer-form {
     padding: 15px 30px;
   }
