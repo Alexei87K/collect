@@ -1028,7 +1028,7 @@ a {
 }
 @media screen and (max-width: 700px) {
   .servicii2 .oferta-blck .oferta-row .oferta-col-text .oferta-text-blck {
-    padding: 0px 30px;
+    padding: 10px 30px;
   }
 }
 .servicii2 .oferta-blck .oferta-row .oferta-col-text .oferta-text-blck h1 {
@@ -1151,7 +1151,7 @@ a {
 }
 @media screen and (max-width: 700px) {
   .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck {
-    padding: 0 30px;
+    padding: 10px 30px;
   }
 }
 .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck h2 {
