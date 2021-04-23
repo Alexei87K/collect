@@ -1622,10 +1622,16 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
   outline: 1px solid #ccc;
   background: rgba(255, 255, 255, 0.5);
 }
+.pc-show {
+  display: block;
+}
 @media screen and (max-width: 450px) {
   .pc-show {
     display: none;
   }
+}
+.mb-show {
+  display: none;
 }
 @media screen and (max-width: 450px) {
   .mb-show {
