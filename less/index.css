@@ -173,7 +173,7 @@ a {
 }
 .header .header_row .header_about .header-about-flex .header_call .tel-icon {
   display: none;
-  background: url(/images/telefon.png) no-repeat;
+  background: url(../images/telefon.png) no-repeat;
   width: 40px;
   height: 40px;
   margin-left: 20px;
@@ -194,7 +194,7 @@ a {
     display: block;
     margin-top: 7px;
     margin-left: 15px;
-    background: url(/images/hamb-icon.png) no-repeat;
+    background: url(../images/hamb-icon.png) no-repeat;
     width: 26px;
     height: 22px;
     cursor: pointer;
@@ -286,14 +286,14 @@ a {
 }
 .main {
   position: relative;
-  background: url(/images/baner.png) no-repeat;
+  background: url(../images/baner.png) no-repeat;
   height: 705px;
   background-position: 75% 50%;
   object-fit: contain;
 }
 @media screen and (max-width: 450px) {
   .main {
-    background: url(/images/min-baner.png) no-repeat;
+    background: url(../images/min-baner.png) no-repeat;
     height: 363px;
     background-position: 50% 50%;
   }
@@ -449,7 +449,7 @@ a {
 }
 .despre {
   height: 420px;
-  background: url(/images/despre-bg.png) no-repeat;
+  background: url(../images/despre-bg.png) no-repeat;
   background-position: 50% 50%;
 }
 @media screen and (max-width: 700px) {
@@ -528,12 +528,12 @@ a {
   }
 }
 .despre .despre-blck .despre-row .despre-col-img .despre_img-blck {
-  background: url(/images/despre-img.png) no-repeat;
+  background: url(../images/despre-img.png) no-repeat;
   min-height: 379px;
   background-position: 50% 50%;
 }
 .servicii .recuperare-fon-block {
-  background: url(/images/despre-bg-new.png) no-repeat;
+  background: url(../images/despre-bg-new.png) no-repeat;
   background-position: 50% 0%;
   margin-bottom: 35px;
   max-height: 1138px;
@@ -826,7 +826,7 @@ a {
   }
 }
 .servicii2 .procesul-blck .procesul-row .procesul-col-img .procesul-img {
-  background: url(/images/procesul.png) no-repeat;
+  background: url(../images/procesul.png) no-repeat;
   background-position: 50% 50%;
   height: 707px;
   object-fit: contain;
@@ -917,7 +917,7 @@ a {
 }
 .servicii2 .oferta-blck .oferta-row .oferta-col-img .oferta-img {
   height: 707px;
-  background: url(/images/oferta.png) no-repeat;
+  background: url(../images/oferta.png) no-repeat;
   background-position: 50% 50%;
   object-fit: contain;
 }
@@ -1100,7 +1100,7 @@ a {
   }
 }
 .intrebari {
-  background: url(/images/intrebare-bg.png) no-repeat;
+  background: url(../images/intrebare-bg.png) no-repeat;
   background-position: 50% 85%;
 }
 @media screen and (max-width: 700px) {
