@@ -798,7 +798,7 @@ a {
   margin-right: 0px;
   width: calc(100% / 12 * 5.8 - 0px);
   background: linear-gradient(283.79deg, #00250F 17.01%, rgba(0, 79, 33, 0) 180.41%), #00461D;
-  height: 430px;
+  height: 431px;
 }
 @media screen and (max-width: 700px) {
   .servicii .recuperare-fon-block .consalt-blck .consalt-row .consalt-col-img {
@@ -1532,5 +1532,8 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
   width: calc(8.333333333333334% - 30px);
   height: inherit;
   outline: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.5);
+}
+e: 1px solid #ccc;
   background: rgba(255, 255, 255, 0.5);
 }
