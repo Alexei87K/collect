@@ -948,6 +948,11 @@ a {
     padding: 10px 30px;
   }
 }
+@media screen and (max-width: 700px) {
+  .servicii2 .procesul-blck .procesul-row .procesul-col-text .procesul-text-blck p {
+    font-size: 15px;
+  }
+}
 .servicii2 .procesul-blck .procesul-row .procesul-col-text .pr-bg-bl {
   background: linear-gradient(235.65deg, #000000 1.31%, rgba(0, 0, 0, 0) 97.84%), #1F1F1F;
   color: rgba(255, 255, 255, 0.8);
@@ -1046,6 +1051,11 @@ a {
   font-size: 18px;
   line-height: 150%;
 }
+@media screen and (max-width: 700px) {
+  .servicii2 .oferta-blck .oferta-row .oferta-col-text .oferta-text-blck p {
+    font-size: 15px;
+  }
+}
 .servicii2 .oferta-blck .oferta-row .oferta-col-text .oferta-text-blck .oferta-btn {
   display: block;
   width: 167px;
@@ -1105,6 +1115,7 @@ a {
 @media screen and (max-width: 700px) {
   .servicii2 .valorile-blck .valorile-row .valorile-col-img p {
     max-width: auto;
+    font-size: 15px;
   }
 }
 .servicii2 .valorile-blck .valorile-row .valorile-col-img li {
@@ -1116,6 +1127,11 @@ a {
   color: rgba(255, 255, 255, 0.8);
   padding: 0 30px;
   max-width: 555px;
+}
+@media screen and (max-width: 700px) {
+  .servicii2 .valorile-blck .valorile-row .valorile-col-img li {
+    font-size: 15px;
+  }
 }
 .servicii2 .valorile-blck .valorile-row .valorile-col-text {
   box-sizing: border-box;
@@ -1180,6 +1196,7 @@ a {
 @media screen and (max-width: 700px) {
   .servicii2 .valorile-blck .valorile-row .valorile-col-text .valorile-text-blck p {
     padding: 0;
+    font-size: 15px;
   }
 }
 .intrebari {
@@ -1639,6 +1656,11 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
   display: none;
 }
 @media screen and (max-width: 450px) {
+  .mb-show {
+    display: block;
+  }
+}
+ (max-width: 450px) {
   .mb-show {
     display: block;
   }
