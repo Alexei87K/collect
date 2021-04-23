@@ -74,7 +74,7 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 1 - 30px);
+  width: calc(8.333333333333334% - 30px);
 }
 .header .header_row .header-logo img {
   width: 32px;
@@ -85,13 +85,13 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 6 - 30px);
+  width: calc(50% - 30px);
   text-align: center;
 }
 @media screen and (max-width: 1115px) {
   .header .header_row .header_menu {
     display: none;
-    width: calc(100% / 12 * 0 - 30px);
+    width: calc(0% - 30px);
   }
 }
 .header .header_row .header_menu .menu li {
@@ -130,11 +130,11 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 4 - 30px);
+  width: calc(33.333333333333336% - 30px);
 }
 @media screen and (max-width: 1115px) {
   .header .header_row .header_about {
-    width: calc(100% / 12 * 4 - 30px);
+    width: calc(33.333333333333336% - 30px);
   }
 }
 .header .header_row .header_about .header-about-flex {
@@ -475,11 +475,11 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 6 - 30px);
+  width: calc(50% - 30px);
 }
 @media screen and (max-width: 700px) {
   .despre .despre-blck .despre-row .despre-col-text {
-    width: calc(100% / 12 * 12 - 30px);
+    width: calc(100% - 30px);
     order: 2;
   }
 }
@@ -519,12 +519,12 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 6 - 30px);
+  width: calc(50% - 30px);
   margin-top: -40px;
 }
 @media screen and (max-width: 700px) {
   .despre .despre-blck .despre-row .despre-col-img {
-    width: calc(100% / 12 * 12 - 30px);
+    width: calc(100% - 30px);
     order: 1;
     margin-top: -190px;
   }
@@ -537,7 +537,7 @@ a {
 .servicii .recuperare-fon-block {
   background: url(../images/despre-bg-new.png) no-repeat;
   margin-bottom: 35px;
-  max-height: 1138px;
+  max-height: 1139px;
 }
 @media screen and (max-width: 700px) {
   .servicii .recuperare-fon-block {
@@ -1132,11 +1132,11 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 5 - 30px);
+  width: calc(41.66666666666667% - 30px);
 }
 @media screen and (max-width: 700px) {
   .intrebari .intrebari-blck .intrebari-row .intrebari-col-img {
-    width: calc(100% / 12 * 12 - 30px);
+    width: calc(100% - 30px);
   }
 }
 .intrebari .intrebari-blck .intrebari-row .intrebari-col-img img {
@@ -1154,11 +1154,11 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 7 - 30px);
+  width: calc(58.333333333333336% - 30px);
 }
 @media screen and (max-width: 700px) {
   .intrebari .intrebari-blck .intrebari-row .intrebari-col-text {
-    width: calc(100% / 12 * 12 - 30px);
+    width: calc(100% - 30px);
   }
 }
 .intrebari .intrebari-blck .intrebari-row .intrebari-col-text .intrebari-text {
@@ -1222,11 +1222,11 @@ footer .big-footer-row .big-footer-col-info {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 8 - 30px);
+  width: calc(66.66666666666667% - 30px);
 }
 @media screen and (max-width: 850px) {
   footer .big-footer-row .big-footer-col-info {
-    width: calc(100% / 12 * 12 - 30px);
+    width: calc(100% - 30px);
     order: 2;
   }
 }
@@ -1285,11 +1285,11 @@ footer .big-footer-row .big-footer-col-info .info-block .about-us .about-us-row 
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 4 - 30px);
+  width: calc(33.333333333333336% - 30px);
 }
 @media screen and (max-width: 550px) {
   footer .big-footer-row .big-footer-col-info .info-block .about-us .about-us-row .about-us-col {
-    width: calc(100% / 12 * 12 - 30px);
+    width: calc(100% - 30px);
     padding: 25px 0;
   }
 }
@@ -1331,11 +1331,11 @@ footer .big-footer-row .big-footer-col-formular {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 4 - 30px);
+  width: calc(33.333333333333336% - 30px);
 }
 @media screen and (max-width: 850px) {
   footer .big-footer-row .big-footer-col-formular {
-    width: calc(100% / 12 * 12 - 30px);
+    width: calc(100% - 30px);
     order: 1;
   }
 }
@@ -1529,7 +1529,7 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(100% / 12 * 1 - 30px);
+  width: calc(8.333333333333334% - 30px);
   height: inherit;
   outline: 1px solid #ccc;
   background: rgba(255, 255, 255, 0.5);
