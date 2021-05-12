@@ -8,33 +8,28 @@ $mail->CharSet = 'utf-8';
 // $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'mail.proiectmd.com';  																							// Specify main and backup SMTP servers
+$mail->Host = '';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'send@proiectmd.com'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = 'proiectmd111'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = ''; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = ''; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('send@proiectmd.com'); // от кого будет уходить письмо?
-$mail->addAddress('teamitsystem@gmail.com');     // Кому будет уходить письмо 
-//$mail->addAddress('ellen@example.com');               // Name is optional
-//$mail->addReplyTo('info@example.com', 'Information');
-//$mail->addCC('cc@example.com');
-//$mail->addBCC('bcc@example.com');
-//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-$mail->isHTML(true);                                  // Set email format to HTML
+$mail->setFrom(''); // от кого будет уходить письмо?
+$mail->addAddress('');     // Кому будет уходить письмо 
 
-$mail->Subject = 'Заявка с тестового сайта';
+$mail->isHTML(true);                                  
+
+$mail->Subject = 'Заявка';
 // $mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
 $numele = !empty($_POST["numele"]) ? 'его имя:  ' . $_POST["numele"] : '';
-$prenumele = !empty($_POST["contact"]) ? 'его фамилия:  ' . $_POST["contact"] : '';
-$contact = !empty($_POST["mesaj"]) ? 'его контакт:  ' . $_POST["mesaj"] : '';
+$prenumele = !empty($_POST["telefon"]) ? 'его фамилия:  ' . $_POST["telefon"] : '';
+$contact = !empty($_POST["comentariu"]) ? 'его контакт:  ' . $_POST["comentariu"] : '';
 
 $mail->msgHTML("<div>
     <div> {$numele}</div>
-    <div> {$contact}</div>
-    <div> {$mesaj}</div>
+    <div> {$telefon}</div>
+    <div> {$comentariu}</div>
    
 </div>");
 
