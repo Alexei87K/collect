@@ -106,6 +106,11 @@ a {
   margin: 0 9px;
   cursor: pointer;
 }
+@media screen and (max-width: 1144px) {
+  .header .header_row .header_menu .menu li a {
+    margin: 0 5px;
+  }
+}
 .header .header_row .header_menu .menu .menu_item {
   display: block;
   position: relative;
@@ -130,7 +135,7 @@ a {
   word-wrap: break-word;
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(33.333333333333336% - 30px);
+  width: calc(25% - 30px);
 }
 @media screen and (max-width: 1115px) {
   .header .header_row .header_about {
@@ -143,7 +148,7 @@ a {
 }
 .header .header_row .header_about .header-about-flex .header_lang .lang_button {
   display: block;
-  background: linear-gradient(229.82deg, #003E1A 20.39%, rgba(0, 79, 33, 0) 103.95%), #006329;
+  background: #3D7046;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -164,7 +169,7 @@ a {
   color: #FFFFFF;
   padding: 0px 28px;
   margin-left: 24px;
-  background: linear-gradient(265.35deg, #003E1A -0.12%, rgba(0, 79, 33, 0) 100.1%), #006329;
+  background: #3D7046;
 }
 @media screen and (max-width: 1115px) {
   .header .header_row .header_about .header-about-flex .header_call .call_button {
@@ -206,7 +211,7 @@ a {
 .min-header {
   position: absolute;
   width: 300px;
-  background: linear-gradient(313.28deg, #00180A 9.22%, rgba(0, 79, 33, 0) 128.26%), #00461D;
+  background: #3D7046;
   z-index: 1000000;
   top: 0;
   left: -300px;
@@ -287,9 +292,14 @@ a {
 .main {
   position: relative;
   background: url(../images/baner.png) no-repeat;
-  height: 705px;
-  background-position: 75% 50%;
+  height: 454px;
+  background-position: 50% 0%;
   object-fit: contain;
+}
+@media screen and (max-width: 700px) {
+  .main {
+    background-position: 70% 50%;
+  }
 }
 @media screen and (max-width: 450px) {
   .main {
@@ -300,7 +310,7 @@ a {
 }
 .main .container-abs {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 21%;
 }
 @media screen and (max-width: 1060px) {
@@ -321,12 +331,12 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 41px;
-  line-height: 59px;
+  font-size: 23px;
+  line-height: 29px;
   color: #000000;
 }
 .main .container-abs .top-form .input-blck {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 .main .container-abs .top-form .input-blck input:not([type='checkbox']) {
   display: block;
@@ -349,19 +359,19 @@ a {
 .main .container-abs .top-form .input-blck .s-flex {
   display: flex;
   align-items: center;
-  margin: 15px 0 28px 0;
+  margin: 8px 0 0px 0;
 }
 .main .container-abs .top-form .input-blck .s-flex p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 15px;
   color: #000000;
 }
 .main .container-abs .top-form .input-blck .top-form-btn {
   max-width: 207px;
   height: 50px;
-  background: linear-gradient(265.35deg, #003E1A -0.12%, rgba(0, 79, 33, 0) 100.1%), #006329;
+  background: #3D7046;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -433,7 +443,7 @@ a {
 .min-form .top-form .input-blck .top-form-btn {
   max-width: 207px;
   height: 50px;
-  background: linear-gradient(265.35deg, #003E1A -0.12%, rgba(0, 79, 33, 0) 100.1%), #006329;
+  background: #3D7046;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -455,14 +465,16 @@ a {
   color: #fff;
 }
 .despre {
-  height: 420px;
-  background: url(../images/despre-bg.png) no-repeat;
+  height: 379px;
+  background: url(../images/despre-bg.png);
   background-position: 50% 50%;
+  margin-bottom: 40px;
+  padding-top: 20px;
 }
 @media screen and (max-width: 700px) {
   .despre {
     height: 100%;
-    background: linear-gradient(93.81deg, #00180A -1.32%, rgba(0, 79, 33, 0) 70.34%), #00461D;
+    background: #3D7046;
     margin-top: 190px;
   }
 }
@@ -659,7 +671,7 @@ a {
   margin-left: 0px;
   margin-right: 0px;
   width: calc(100% / 12 * 5.8 - 0px);
-  background: linear-gradient(283.79deg, #00250F 17.01%, rgba(0, 79, 33, 0) 180.41%), #00461D;
+  background: #3D7046;
   padding-top: 175px;
 }
 @media screen and (max-width: 700px) {
@@ -714,7 +726,7 @@ a {
   margin-left: 0px;
   margin-right: 0px;
   width: calc(100% / 12 * 5.8 - 0px);
-  background: linear-gradient(283.79deg, #00250F 17.01%, rgba(0, 79, 33, 0) 180.41%), #00461D;
+  background: #3D7046;
 }
 @media screen and (max-width: 700px) {
   .servicii .recuperare-fon-block .achizitii-blck .achizitii-row .achizitii-col-text {
@@ -839,7 +851,7 @@ a {
   margin-left: 0px;
   margin-right: 0px;
   width: calc(100% / 12 * 5.8 - 0px);
-  background: linear-gradient(283.79deg, #00250F 17.01%, rgba(0, 79, 33, 0) 180.41%), #00461D;
+  background: #3D7046;
   height: 431px;
 }
 @media screen and (max-width: 700px) {
@@ -1061,7 +1073,7 @@ a {
   display: block;
   width: 167px;
   height: 50px;
-  background: linear-gradient(265.35deg, #00180A -0.12%, rgba(0, 79, 33, 0) 100.1%), #00461D;
+  background: #3D7046;
   text-align: center;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -1201,12 +1213,11 @@ a {
   }
 }
 .intrebari {
-  background: url(../images/intrebare-bg.png) no-repeat;
-  background-position: 50% 85%;
+  background: #3D7046;
 }
 @media screen and (max-width: 700px) {
   .intrebari {
-    background: linear-gradient(265.35deg, #00180A -0.12%, rgba(0, 79, 33, 0) 100.1%), #00461D;
+    background: #3D7046;
   }
 }
 .intrebari .intrebari-blck {
@@ -1497,7 +1508,7 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .s-flex
 footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-form-btn {
   max-width: 207px;
   height: 50px;
-  background: linear-gradient(265.35deg, #003E1A -0.12%, rgba(0, 79, 33, 0) 100.1%), #006329;
+  background: #3D7046;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1506,6 +1517,9 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
   color: #FFFFFF;
   border-style: none;
   cursor: pointer;
+}
+footer .big-footer-row .big-footer-col-formular .footer_logo {
+  margin-top: 35px;
 }
 .big-footer-col-formular .s-flex {
   display: flex;
@@ -1567,8 +1581,8 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
 }
 /* стили для чекбокса, находящегося в состоянии checked */
 .custom-checkbox:checked + label::before {
-  border-color: #01441C;
-  background: #01441C;
+  border-color: #3D7046;
+  background: #3D7046;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 /* стили для чекбокса, находящегося в состоянии disabled */
@@ -1661,7 +1675,7 @@ footer .big-footer-row .big-footer-col-formular .footer-form .input-blck .top-fo
     display: block;
   }
 }
- (max-width: 450px) {
+media screen and (max-width: 450px) {
   .mb-show {
     display: block;
   }
